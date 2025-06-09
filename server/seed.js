@@ -2,7 +2,7 @@ const { faker } = require('@faker-js/faker');
 const MongoClient = require("mongodb").MongoClient;
 const _ = require("lodash");
 
-async function main() {{
+async function main() {
     const uri = "mongodb://localhost://27017";
     const client = new MongoClient(uri);
 
